@@ -1,0 +1,50 @@
+mamifero(x):-
+    tem_pelos(x),
+    da_leite(x).
+
+ave(y):-
+    tem_penas(y),
+    voa(y),
+    oviparo(y).
+
+carnivoro(z):-
+    come_carne(z),
+    dentes_pontiagudos(z),
+    tem_garras(z),
+    olhos_frente(z).
+
+ungulado(u):-
+    tem_cascos(u),
+    rumina(u).
+
+puma(p):-
+    manchas_negras(p),
+    fulva(p).
+
+girafa(g):-
+    pescoco_comprido(g),
+    pernas_compridas(g),
+    manchas_negras(g).
+
+zebra(a):-
+    listas_negras(a).
+
+avestruz(v):-
+    nao_voa(v),
+    preto_branco(v),
+    pescoco_comprido(v).
+
+pinguim(i):-
+    nao_voa(i),
+    nada(i),
+    preto_branco(i).
+
+albatroz(l):-
+    voa(l).
+
+morcego(m):-
+    voa(m).
+
+baleia(c):-
+    sem_pelos(c).
+
